@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/safety"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_weight="1"
+            android:onClick="onSafetyClick"
+            android:text="@string/main_activity_safety"
+            android:textSize="@dimen/main_button_size"
+            android:background="@drawable/ic_btn_safety"/>
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_weight="1"
+            android:onClick="onLocationClick"
+            android:text="@string/main_activity_location"
+            android:textSize="@dimen/main_button_size"
+            android:background="@drawable/ic_btn_share_location"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_button_height"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="0dp">
+
+
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_weight="1"
+            android:onClick="onEmergencyClick"
+            android:text="@string/main_activity_emergency"
+            android:textSize="@dimen/main_button_size"
+            android:background="@drawable/ic_btn_emergency"/>
+
+        <Button
+            android:id="@+id/siren"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_weight="1"
+            android:onClick="onSirenClick"
+            android:textSize="@dimen/main_button_size"
+            android:text="@string/main_activity_siren"
+            android:background="@drawable/ic_btn_siren"/>
+    </LinearLayout>
+
+</LinearLayout>

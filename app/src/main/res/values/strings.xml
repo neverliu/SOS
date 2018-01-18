@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="main_activity_title">Emergency SOS</string>
+    <string name="main_activity_safety">Safety Homecoming</string>
+    <string name="main_activity_location">Send Current Location</string>
+    <string name="main_activity_emergency">Request Emergency Assistance</string>
+    <string name="main_activity_siren">Siren</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pre_sending_time_title">Safety Homecoming Sending Time</string>
+    <string name="pre_emergency_sos_title">Emergency SOS</string>
+    <string name="pre_emergency_sos_sum">Set up of emergency SOS</string>
+    <string name="pre_siren_title">Siren</string>
+    <string name="pre_siren_sum">Setup Siren sound and sound volume</string>
+    <string name="title_activity_settings2">Settings</string>
+    <string name="current_loaction_titile">Send My Current Location</string>
+
+<!--liuhao add -->
+    <string name="shared_location">Now the location is being Shared!</string>
+    <string name="send">Send</string>
+    <string name="stop">Stop</string>
+    <string name="toast_1">Please press the return button again to exit</string>
+    <string name="sos_message_left">I am in an emergency! My current location is https://www.google.co.kr/search?safe=active&amp;q=</string>
+    <string name="sos_message_right"></string>
+    <string name="count_down">Count down:</string>
+    <string name="at_home">At home</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="Dialog_1">at the end of the service.</string>
+    <string name="send_current_location">Send My Current Location</string>
+    <string name="emergency_sos">Emergency SOS</string>
+    <string name="emergency_help">help!</string>
+    <string name="emergency_emergency_message">the call and send message…</string>
+    <string name="toast_2"> send success.</string>
+    <string name="toast_3"> send fail. please set emergency contact in this app</string>
+    <string name="toast_4"> send fail. please set current location contacts in this app</string>
+    <string name="toast_5"> please send emergency contact.</string>
+
+    <string name="sos_message_1">My current location is https://www.google.co.kr/search?safe=active&amp;q=</string>
+    <string name="sos_message_2_left">I am in an emergency! My current location is https://www.google.co.kr/search?safe=active&amp;q=</string>
+    <string name="sos_message_2_right"></string>
+
+<!--jc add -->
+    <string name="siren">Siren</string>
+    <string name="start">Start</string>
+    <string name="alarm">Stop</string>
+    <string name="sound">Setup Siren sound</string>
+    <string name="all_volume_title">Volume</string>
+    <string name="notification_text2">Well done! \n To add more contacts Settings -> Trusted Contact Settings -> Send your current location Add your contact settings.\n\n This time urgent help contact \nSet it up!\n Press the register button Add a contact!</string>
+    <string name="notification_text1">You can register up to 3 people to send your location by pressing the register button</string>
+    <string name="notification_text4">Well done!\n To add more contacts Please go to Settings -> Trusted Contact Settings -> Emergency Help Contact Settings.</string>
+    <string name="nitification_text3">Well done!\n This time set emergency message contact \nSet it up!\n Press the register button Add a contact!</string>
+    <string name="start_text">Start</string>
+    <string name="next_text">Next</string>
+    <string name="complete_text">Complete</string>
+    <string name="emergency_message_set_up">Emergency Message Set Up</string>
+    <string name="emergency_call_set_up">Emergency Call Set Up</string>
+    <string name="notification_text5">You can register up to 3 contacts.</string>
+    <string name="set_up_contacts_for_send_my_current_location">Set up contacts for send my current location</string>
+    <string name="preference_contacts_set_up_title">Contacts Set Up</string>
+    <string name="pre_contacts_setup_sum">Set up for Send My Current Location and Emergency SOS</string>
+    <string name="change_contact_text">Would you like to change the contacts?\n</string>
+    <string name="already_contact_text">"You can't select already registered contacts."</string>
+
+</resources>

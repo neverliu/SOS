@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Preference
+            android:key="current_loaction_titile"
+            android:title="@string/current_loaction_titile"
+            android:summary="@string/set_up_contacts_for_send_my_current_location"
+            >
+            <intent android:targetClass="com.mega.sos.CurrentContactSettingActivity" android:targetPackage="com.mega.sos"/>
+            </Preference>
+        <Preference
+            android:key="emergency_sos"
+            android:title="@string/pre_emergency_sos_title"
+            android:summary="@string/pre_emergency_sos_sum"
+            >
+            <intent android:targetClass="com.mega.sos.EMERContactSettingActivity" android:targetPackage="com.mega.sos"/>
+        </Preference>
+    </PreferenceScreen>

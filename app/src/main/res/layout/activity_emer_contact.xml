@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EMERContactSettingActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency_call_set_up"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/call_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:background="@drawable/setting_add"
+        android:textColor="@android:color/white"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:lines="1"
+        android:maxEms="4"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/emergency_message_set_up"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/sms_contact_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_contacts_btn_bg"
+            android:textColor="@android:color/white"
+            android:layout_alignParentLeft="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:maxEms="4"
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/sms_contact_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_contacts_btn_bg"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:ellipsize="end"
+            android:maxEms="4"
+            android:lines="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/sms_contact_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_contacts_btn_bg"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:ellipsize="end"
+            android:maxEms="4"
+            android:lines="1"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/btn_up_layout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_layout1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#88000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/notification_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nitification_text3"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/next_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/next_text"
+            android:textColor="@android:color/white"
+            android:padding="5dp"
+            android:background="@drawable/notification_text_bg"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notification_layout2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#88000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/notification_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_text4"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/complete_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/complete_text"
+            android:textColor="@android:color/white"
+            android:padding="5dp"
+            android:background="@drawable/notification_text_bg"/>
+    </LinearLayout>
+
+</RelativeLayout>

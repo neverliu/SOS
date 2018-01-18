@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference
+            android:key="sending_time"
+            android:defaultValue="180000"
+            android:title="@string/pre_sending_time_title"
+            android:entries="@array/pref_sending_time_titles"
+            android:entryValues="@array/pref_sending_time_values"
+
+            />
+        <Preference
+            android:key="emergency_sos"
+            android:title="@string/preference_contacts_set_up_title"
+            android:summary="@string/pre_contacts_setup_sum"
+            >
+            <intent android:targetClass="com.mega.sos.ContactsSettingsActivity" android:targetPackage="com.mega.sos"/>
+            </Preference>
+        <Preference
+            android:key="Siren"
+            android:title="@string/pre_siren_title"
+            android:summary="@string/pre_siren_sum"
+            >
+            <intent android:targetClass="com.mega.sos.SirenSettingsActivity" android:targetPackage="com.mega.sos"/>
+        </Preference>
+    </PreferenceScreen>

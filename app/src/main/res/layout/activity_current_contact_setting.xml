@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".CurrentContactSettingActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/set_up_contacts_for_send_my_current_location"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/current_contact_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_contacts_btn_bg"
+            android:textColor="@android:color/white"
+            android:layout_alignParentLeft="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:maxEms="4"
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/current_contact_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_contacts_btn_bg"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:ellipsize="end"
+            android:maxEms="4"
+            android:lines="1"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/current_contact_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_contacts_btn_bg"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:ellipsize="end"
+            android:maxEms="4"
+            android:lines="1"
+            android:layout_margin="5dp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_text5"
+        android:textColor="#88000000" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/register_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#88000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+            <TextView
+                android:id="@+id/notification_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notification_text1"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:id="@+id/start_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/start_text"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:background="@drawable/notification_text_bg"/>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notification_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#88000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/notification_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_text2"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/next_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/next_text"
+            android:textColor="@android:color/white"
+            android:padding="5dp"
+            android:background="@drawable/notification_text_bg"/>
+    </LinearLayout>
+</RelativeLayout>

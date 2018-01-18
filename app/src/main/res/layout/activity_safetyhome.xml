@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" >
+
+        </com.baidu.mapapi.map.MapView>
+    <TextView
+        android:id="@+id/navigation_tile"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|center_horizontal"
+        android:text="@string/shared_location"
+        android:textColor="#FFFACD"
+        android:visibility="gone"
+        android:background="@color/colorGray"/>
+    <TextView
+        android:id="@+id/emergency_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal"
+        android:text="@string/emergency_help"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:visibility="gone"
+        android:background="@color/colorGray"/>
+    <Button
+        android:id="@+id/safetyhome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:background="@color/colorGreen"
+        android:text="@string/send"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

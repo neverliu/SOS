@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TestSettings</string>
+    <string name="title_activity_settings">설정</string>
+    <string name="pre_sending_time_title">안심귀가 전송시간 설정</string>
+    <string name="pre_emergency_sos_title">긴급도움 요청하기 </string>
+    <string name="pre_emergency_sos_sum">긴급도움 요청시 필요사항을 설정합니다.</string>
+    <string name="pre_siren_title">경보 울리기</string>
+    <string name="pre_siren_sum">경보 울림음 및 소리크기를 설정합니다.</string>
+    
+    <!--liuhao add -->
+    <string name="shared_location">현재 위치가 공유되고 있어요!</string>
+    <string name="send">시작</string>
+    <string name="stop">종료</string>
+    <string name="toast_1">단추를 눌러 주십시오. 다시 돌아올 종료</string>
+    <string name="sos_message_left">위급상황에 처했어요!현재 제 위치는  https://www.google.co.kr/search?safe=active&amp;q=</string>
+    <string name="sos_message_right">이에요!</string>
+    <string name="count_down">남은 시간:</string>
+    <string name="at_home">안심귀가</string>
+    <string name="ok">종료</string>
+    <string name="cancel">취소</string>
+    <string name="Dialog_1">안심귀가 서비스를 종료할까요?</string>
+    <string name="send_current_location">현재 내 위치 보내기</string>
+    <string name="notification_text1">등록하기 버튼을 눌러\n 내 위치를 보낼 사람을\n최대 3명까지 등록할 수 있어요!</string>
+    <string name="notification_text2">잘했어요!\n연락처를 더 추가하려면\n설정 안심 연락처 설정  현재 내위치 보내기 연락처 설정에서 추가해 주세요.\n\n이번엔 긴급도움을 연락처를\n설정해봐요!\n등록하기 버튼을 눌러\n연락처를 추가하세요!</string>
+    <string name="nitification_text3">잘했어요!\n\n이번엔 긴급 문자 연락처를\n설정해봐요!\n등록하기 버튼을 눌러 \n연락처를 추가하세요!\n</string>
+    <string name="notification_text4">잘했어요!\n연락처를 더 추가하려면\n설정 안심 연락처 설정  긴급도움 연락처 설정에서 추가해 주세요.</string>
+    <string name="start_text">Start</string>
+    <string name="next_text">Next</string>
+    <string name="complete_text">완료</string>
+    <string name="emergency_message_set_up">긴급 문자 연락처 설정</string>
+    <string name="emergency_call_set_up">긴급 전화 연락처 설정</string>
+    <string name="notification_text5">연락처는 최대 3명까지 등록 가능합니다.</string>
+    <string name="set_up_contacts_for_send_my_current_location">내위치를 보낼 연락처를 설정합니다.</string>
+    <string name="current_loaction_titile">현재 내위치 보내기 연락처 설정</string>
+    <string name="preference_contacts_set_up_title">안심 연락처 설정</string>
+    <string name="pre_contacts_setup_sum">현재 내위치 보내기와 긴급도움 연락처를 설정합니다.</string>
+    <string name="change_contact_text">연락처를 변경할까요?\n</string>
+    <string name="already_contact_text">이미 등록된 연락처와 동일한 연락처는 선택할 수 없습니다.</string>
+    <string name="emergency_sos">긴급도움 요청하기</string>
+    <string name="emergency_help">도와주세요!</string>
+    <string name="emergency_emergency_message">전화와 문자 발신중…</string>
+    <string name="toast_2"> 보내기 성공.</string>
+    <string name="toast_3"> 보내기 실패.이 프로그램 설정 긴급 연락 주세요.</string>
+    <string name="toast_4"> 보내기 실패.현재 위치 좀 이 프로그램 설정.</string>
+    <string name="toast_5">긴급 연락 주세요.</string>
+
+    <string name="sos_message_1">현재 제 위치를 알려드려요 </string>
+    <string name="sos_message_2_left">위급상황에 처했어요! 현재 제 위치는 </string>
+    <string name="sos_message_2_right"> 이에요!</string>
+</resources>

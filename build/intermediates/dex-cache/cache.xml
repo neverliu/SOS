@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\workspace\sos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\workspace\sos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fc63a04108a6a4a7660a9d2ceb838ccbabfd50e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\sos\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="087d79fa35d7b265ddb800e5a62ed5d6c40672f3">
+        <dex dex="D:\workspace\sos\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_2f6fb4cd3b1f392b41eae5ea0966ef9c06f4005b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\sos\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cd221fa3fef910c91e31d53f27de438a4935f6ec">
+        <dex dex="D:\workspace\sos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9092fb58124d3a26146da6c7c32673c3bf4bf633\classes.dex" />
+    </item>
+
+</items>
